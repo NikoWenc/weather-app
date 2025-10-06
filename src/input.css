@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-    --input-bg-color: #285685;
+    --input-bg-color: #110061;
+    --main-bg-color: #0A003B;
+}
+
+.blur-box {
+  background: rgba(255, 255, 255, 0.01); /* semi-transparent background */
+  backdrop-filter: blur(10px);           /* applies blur to background behind it */
+  -webkit-backdrop-filter: blur(10px);   /* Safari support */
+  border: solid 1px rgba(255, 255, 255, 0.1)
 }
