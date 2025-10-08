@@ -5,5 +5,3 @@ import json from "./conditions.json";
 
 getWeather();
 
-console.log(json)
-

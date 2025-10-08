@@ -9,5 +9,5 @@
   background: rgba(255, 255, 255, 0.01); /* semi-transparent background */
   backdrop-filter: blur(10px);           /* applies blur to background behind it */
   -webkit-backdrop-filter: blur(10px);   /* Safari support */
-  border: solid 1px rgba(255, 255, 255, 0.1)
+  border: solid 2px rgba(255, 255, 255, 0.1);
 }
