@@ -28,7 +28,7 @@ const nextNextDayIcon = document.querySelector("#next-next-day-icon");
 const nextNextDayTemp = document.querySelector("#next-next-day-temp");
 const nextNextDayCondition = document.querySelector("#next-next-day-condition");
 
-const apiURL = `http://api.weatherapi.com/v1/forecast.json?key=5e0679862bda46a4933124054250510&q=`;
+const apiURL = `https://api.weatherapi.com/v1/forecast.json?key=5e0679862bda46a4933124054250510&q=`;
 
 export default async function getWeather(){
     try {
